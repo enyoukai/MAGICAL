@@ -5,12 +5,26 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Comp",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/examples/comp",
+            "program": "${workspaceFolder}/flow/python/Magical.py",
+            "args": [
+                "comp.json"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
             "name": "ADC1",
             "type": "python",
             "request": "launch",
             "cwd": "${workspaceFolder}/examples/adc1",
             "program": "${workspaceFolder}/flow/python/Magical.py",
-            "args": ["adc1.json"],
+            "args": [
+                "adc1.json"
+            ],
             "console": "integratedTerminal",
             "justMyCode": true
         }
