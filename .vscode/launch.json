@@ -5,7 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Comp",
+            "name": "Comp (Python C++)",
+            "type": "pythoncpp",
+            "request": "launch",
+            "pythonLaunchName": "Comp (Python)",
+            "cppAttachName": "Comp (C++)"
+        },
+        {
+            "name": "Comp (Python)",
             "type": "python",
             "request": "launch",
             "cwd": "${workspaceFolder}/examples/comp",
@@ -15,6 +22,12 @@
             ],
             "console": "integratedTerminal",
             "justMyCode": true
+        },
+        {
+            "name": "Comp (C++)",
+            "type": "cppdbg",
+            "request": "attach",
+            "processId": "" 
         },
         {
             "name": "ADC1",
