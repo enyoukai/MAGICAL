@@ -4,7 +4,8 @@
 	"name": "Magical",
 	"build": {
 		"dockerfile": "Dockerfile"
-	}
+	},
+	"capAdd": ["SYS_PTRACE"]
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
