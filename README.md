@@ -120,3 +120,15 @@ Similar to device symmetry constraints, we consider symmetry net pairs and self-
 
 # License #
 [BSD 3-Clause](https://github.com/magical-eda/MAGICAL/blob/master/LICENSE)
+
+# c++ debugging setup #
+in etc/apt/sources.list
+```
+deb [trusted=yes] http://archive.debian.org/debian jessie main
+deb [trusted=yes] http://archive.debian.org/debian-security jessie/updates main
+```
+
+then
+```
+apt install gdb
+```
