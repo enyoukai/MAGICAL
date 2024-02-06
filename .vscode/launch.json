@@ -5,15 +5,8 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Comp (Python C++)",
-            "type": "pythoncpp",
-            "request": "launch",
-            "pythonLaunchName": "Comp (Python)",
-            "cppAttachName": "Comp (C++)"
-        },
-        {
-            "name": "Comp (Python)",
-            "type": "python",
+            "name": "Comp",
+            "type": "debugpy",
             "request": "launch",
             "cwd": "${workspaceFolder}/examples/comp",
             "program": "${workspaceFolder}/flow/python/Magical.py",
@@ -24,14 +17,8 @@
             "justMyCode": true
         },
         {
-            "name": "Comp (C++)",
-            "type": "cppdbg",
-            "request": "attach",
-            "processId": "" 
-        },
-        {
             "name": "ADC1",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
             "cwd": "${workspaceFolder}/examples/adc1",
             "program": "${workspaceFolder}/flow/python/Magical.py",
@@ -43,7 +30,7 @@
         },
         {
             "name": "NOT",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
             "cwd": "${workspaceFolder}/examples/not",
             "program": "${workspaceFolder}/flow/python/Magical.py",
