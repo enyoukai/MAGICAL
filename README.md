@@ -132,3 +132,6 @@ then
 ```
 apt install gdb
 ```
+
+# Python Setup #
+/usr/local/bin/python3 is the correct python install

@@ -40,6 +40,18 @@
             ],
             "console": "integratedTerminal",
             "justMyCode": true
+        },
+        {
+            "name": "NOT",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/examples/not",
+            "program": "${workspaceFolder}/flow/python/Magical.py",
+            "args": [
+                "not.json"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
         }
     ]
 }

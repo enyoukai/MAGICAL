@@ -1,2 +1,2 @@
 mkdir gds
-python ../../flow/python/Magical.py not.json
+/usr/local/bin/python3 ../../flow/python/Magical.py not.json
