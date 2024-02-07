@@ -3,5 +3,5 @@
     "resultDir" : "./",
     "techfile"  : "../mockPDK/mock.techfile",
     "simple_tech_file" :  "../mockPDK/techfile.simple",
-    "lef" : "../mockPDK/mock.lef"
+    "lef" : "../gpdk/gsclib045_tech.lef"
 }
